@@ -1,0 +1,6 @@
+{"firstname": "Sally",
+"lastname": "Field",
+"roles": [
+    {"tv": ["Gidget", "The Flying Nun", "Sybil", "ER"]},
+    {"movies": ["Stay Hungry", "Smokey and the Bandit", "Steel Magnolias", "Mrs. Doubtfire", "Forrest Gump"]}
+]}

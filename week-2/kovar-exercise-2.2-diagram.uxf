@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>850</x>
+      <y>480</y>
+      <w>210</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>_Line Item_
+--
+_id
+name
+price
+quantity</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>530</x>
+      <y>140</y>
+      <w>210</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>_Customer_
+--
+_id
+first_name
+last_name
+date_of_birth
+user_name</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>220</x>
+      <y>470</y>
+      <w>210</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>_Invoice_
+--
+_id
+date_created
+date_shipped
+subtotal
+tax
+total</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>420</x>
+      <y>240</y>
+      <w>270</w>
+      <h>340</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-
+can have
+m1=1..*
+m2=1..1</panel_attributes>
+    <additional_attributes>10.0;310.0;230.0;310.0;230.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>310</x>
+      <y>170</y>
+      <w>240</w>
+      <h>320</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-
+assigned
+m1=1..1
+m2=1..*</panel_attributes>
+    <additional_attributes>220.0;20.0;10.0;20.0;10.0;300.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>420</x>
+      <y>550</y>
+      <w>450</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-
+can have
+m1=1..*
+m2=1..1</panel_attributes>
+    <additional_attributes>430.0;10.0;300.0;10.0;300.0;30.0;10.0;30.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>310</x>
+      <y>560</y>
+      <w>700</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-
+associated
+m1=1..*
+m2=1..1</panel_attributes>
+    <additional_attributes>10.0;40.0;10.0;90.0;660.0;90.0;660.0;10.0</additional_attributes>
+  </element>
+</diagram>
