@@ -1,0 +1,19 @@
+
+{
+    "name": "database engineer",
+    "Permissions": [
+        {"admin": "true"},
+        {"superuser": "false"},
+        {"write": "false"},
+        {"readonly": "false"}
+    ],
+    "User": [
+        {"user_firstname": "Sally",
+        "user_lastname": "Field",
+        "username": "sfield"},
+        {"user_firstname": "Burt",
+        "user_lastname": "Reynolds",
+        "username": "breynolds"
+        }
+    ]
+}

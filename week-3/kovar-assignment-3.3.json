@@ -1,0 +1,17 @@
+
+{
+    "book_isbn": "978-0321-826626",
+    "book_name": "NoSQL Distilled",
+    "book_price": "39.99",
+    "Author": {
+        "author_firstname": "Pramod",
+        "author_lastname": "Sadalage",
+        "author_phone": "123-456-7890",
+        "author_email": "pramod.sadalage@example.com"
+    },
+    "Publisher": {
+        "publisher_name": "Pearson Education Inc",
+        "publisher_address": "555 West 23rd Avenue New York New York 10101",
+        "publisher_code": "100-A5"
+    }
+}
