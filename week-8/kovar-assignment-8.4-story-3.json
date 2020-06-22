@@ -1,0 +1,41 @@
+{
+    "_id":"420065fd78",
+    "username":"sillyputty",
+
+    "Categories":[{
+        "_id":"e4394d7ace",
+        "category_name":"new",
+
+        "Videos":[{
+
+            "_id":"3af62f1f66",
+            "title":"Smokey and the Bandit",
+            "actors":[
+                {
+                "_id":"da15211ecf",
+                "first_name":"Burt",
+                "last_name":"Reynolds"
+                }
+                ],
+            "director":"Hal Needham",
+            "producer":"Sonny Burke",
+            "img":"smokey.jpg",
+            "rating":"7",
+            "genre":[
+                {
+                "_id":"47a84fb80f",
+                "name":"action"
+                },
+                {
+                "_id":"044194a98b",
+                "name":"comedy"
+                }
+                ]
+        }]
+    }]
+}
+
+
+    
+
+

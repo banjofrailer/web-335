@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>30</x>
+      <y>0</y>
+      <w>210</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>_object: USER
+--
+{
+"_id":"420065fd78",
+"username":"sillyputty"
+}</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>230</x>
+      <y>20</y>
+      <w>150</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1.1
+m2=1.*
+</panel_attributes>
+    <additional_attributes>10.0;20.0;130.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>360</x>
+      <y>0</y>
+      <w>210</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>_object: Categories
+--
+{
+"_id":"e4394d7ace",
+"category_name":"new"
+}</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>450</x>
+      <y>90</y>
+      <w>50</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1.*
+m2=1.*
+</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;90.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>360</x>
+      <y>180</y>
+      <w>220</w>
+      <h>440</h>
+    </coordinates>
+    <panel_attributes>_object: Videos
+--
+{
+"_id":"3af62f1f66",
+"title":"Smokey and the Bandit",
+"actors":[
+	{
+	"_id":"da15211ecf",
+	"first_name":"Burt",
+	"last_name":"Reynolds"
+	}
+	],
+"director":"Hal Needham",
+"producer":"Sonny Burke",
+"img":"smokey.jpg",
+"rating":"7",
+"genre":[
+	{
+	"_id":"47a84fb80f",
+	"name":"action"
+	},
+	{
+	"_id":"044194a98b",
+	"name":"comedy"
+	}
+	]
+}</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>350</x>
+      <y>680</y>
+      <w>210</w>
+      <h>150</h>
+    </coordinates>
+    <panel_attributes>_object: Actors
+--
+{
+"_id":"59954fe688",
+"first_name":"Arnold",
+"last_name":"Schwarzenegger",
+"nick_name":"The Terminator"
+}</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>210</x>
+      <y>720</y>
+      <w>160</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1.*
+m2=1.*
+</panel_attributes>
+    <additional_attributes>10.0;20.0;140.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>10</x>
+      <y>680</y>
+      <w>210</w>
+      <h>450</h>
+    </coordinates>
+    <panel_attributes>_object: Videos
+--
+{
+"_id":"e987eb09df",
+"title":"Kindegarten Cop",
+"actors":[
+	{
+	"_id":"59954fe688",
+	"first_name":"Arnold",
+	"last_name":"Schwarzenegger",
+	"nick_name":"The Terminator"
+	}
+	],
+"director":"Ivan Reitman",
+"producer":"Ivan Reitman",
+"img":"kcop.jpg",
+"rating":"3",
+"genre":[
+	{
+	"_id":"1b21e6a0bf",
+	"name":"crime"
+	},
+	{
+	"_id":"044194a98b",
+	"name":"comedy"
+	}
+	]
+}</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>90</x>
+      <y>1120</y>
+      <w>50</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1.*
+m2=1.*
+</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;100.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>10</x>
+      <y>1220</y>
+      <w>210</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>_object: Genre
+--
+{
+"_id":"1b21e6a0bf",
+"name":"crime"
+}</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
