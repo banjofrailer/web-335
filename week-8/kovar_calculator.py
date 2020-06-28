@@ -6,14 +6,10 @@
 # Description: Python add, subtract, divide functions.
 # ===========================================
 
-
+#name displayed on screen
 first_name = 'Sarah'
-
 last_name = 'Kovar'
-
 print(first_name + ' ' + last_name)
-
-
 
 #add function
 def add(number01, number02):
